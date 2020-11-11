@@ -1,6 +1,9 @@
 name: CI
 
-on: [push] # 当有新push时运行
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -28,11 +31,10 @@ jobs:
         git config --global user.name 'shangdev'
         git config --global user.email '609926202@qq.com'
         # install dependencies
-        npm i -g hexo-cli # 安装hexo
-        npm i
+        npm install
   
     - name: Deploy
       run: |
         # publish
-        hexo clean
-        hexo deploy # 执行部署程序
+        npm run clean
+        npm run deploy # 执行部署程序
