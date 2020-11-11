@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 莫离相惜
-subtitle: 说好了，莫离相惜，那就莫离相惜
-description: 莫离相惜,莫离相惜博客
-author: xiongwei.shang
+title: 风吹叶落
+subtitle: 风吹夜无声，雨下折其身
+description: 
+author: rateltalk
 language: zh-Hans
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://shangev.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,3 +98,4 @@ theme: polk
 deploy:
   type: git
   repo: git@github.com:shangdev/shangdev.github.io.git
+  branch: main
