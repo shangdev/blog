@@ -5,7 +5,7 @@
 # Site
 title: 风吹叶落
 subtitle: 风吹夜无声，雨下折其身
-description: 
+description: 风吹叶落的博客
 author: rateltalk
 language: zh-Hans
 timezone: 'Asia/Shanghai'
@@ -50,15 +50,6 @@ highlight:
   wrap: true
   hljs: false
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -75,7 +66,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+updated_option: mtime
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -91,7 +82,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: polk
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

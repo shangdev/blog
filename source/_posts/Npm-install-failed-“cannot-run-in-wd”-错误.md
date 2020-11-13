@@ -17,4 +17,6 @@ $ npm install --unsafe-perm
 
 > If npm was invoked with root privileges, then it will change the uid to the user account or uid specified by the user config, which defaults to nobody. Set the unsafe-perm flag to run scripts with root privileges.
 
-参考链接：[npm install failed “cannot run in wd”](https://blog.csdn.net/zgljl2012/article/details/52047339)
+参考链接：[npm install failed “cannot run in wd”](https://blog.csdn.net/zgljl2012/article/details/52047339)  
+
+【测试actions】
