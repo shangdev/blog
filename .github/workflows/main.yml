@@ -37,4 +37,5 @@ jobs:
       run: |
         # publish
         npm run clean
+        npm run build
         npm run deploy # 执行部署程序
