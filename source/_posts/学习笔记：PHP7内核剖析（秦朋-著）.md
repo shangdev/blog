@@ -4,11 +4,15 @@ date: 2018-07-06 22:55:36
 tags: "笔记"
 categories: "学习笔记"
 ---
+
 本文记录在阅读学习**&lt;&lt;PHP7内核剖析&gt;&gt;**过程中的所思所想所感，以备后用。
+
+<!-- more -->
+
 # 名词解释
 ## PDO
 英文全称：PHP Data Objects，一种在PHP里连接**数据库**的使用接口，她提供了一个数据访问抽象层，这意味着，不管使用哪种数据库，都可以用相同的函数（方法）来查询和获取数据。
-<!-- more -->
+
 ## PEAR
 英文全称：PHP Extension and Application Repository，PHP扩展与应用库。它是一个PHP扩展及应用的一个代码仓库，简单地说，PEAR之于PHP就像是CPAN(Comprehensive Perl Archive Network)之于Perl。
 ## PECL

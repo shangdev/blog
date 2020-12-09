@@ -9,6 +9,8 @@ categories:
 
 现在，Letsencrypt 支持通配符证书申请了。
 
+<!-- more -->
+
 # 证书申请
 
 首先，获取 [Certbot](https://certbot.eff.org/) 客户端：
@@ -17,8 +19,6 @@ categories:
 $ wget https://dl.eff.org/certbot-auto
 $ chmod a+x certbot-auto
 ```
-
-<!-- more -->
 
 接着，使用 Certbot 客户端申请证书，使用 dns-01 方式，替换掉下方 *.xxx.com 为待申请证书的域名。
 

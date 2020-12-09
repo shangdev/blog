@@ -4,6 +4,11 @@ date: 2017-05-12 01:03:27
 tags: "Linux"
 categories: "运维相关"
 ---
+
+本篇讲如何放开 mysql 的远程访问权限。
+
+<!-- more -->
+
 > 针对iptables设置
 
 # 查看  
@@ -24,8 +29,6 @@ sudo vi /etc/sysconfig/iptables
 # 此处需要注意，-A INPUT -p tcp -m tcp --dport 3306 -j DROP这条规则时放到新增规则之后的，不然由于优先级无法生效。
 -A INPUT -s ip  -p tcp --dport 3306 -j ACCEPT
 ```
-
-<!-- more -->
 
 继续查看iptables状态
 ```

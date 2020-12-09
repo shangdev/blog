@@ -5,6 +5,10 @@ tags: "Linux"
 categories: "运维相关"
 ---
 
+本篇注意讲如何自行编译 git 至最新版本。
+
+<!-- more -->
+
 # 卸载旧版
 
 一定要先卸载，不然虽然安装成功，但无法成功替换
@@ -22,9 +26,6 @@ categories: "运维相关"
 # wget https://www.kernel.org/pub/software/scm/git/git-2.7.3.tar.gz
 # tar -zxf git-2.7.3.tar.gz
 ```
-
-<!-- more -->
-
 
 编译安装新版本Git  
 
