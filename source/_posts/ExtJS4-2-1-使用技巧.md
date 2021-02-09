@@ -108,3 +108,11 @@ var grid = Ext.create("Ext.tree.Panel", {
 # 添加属性至Ext.grid.Panel中
 onLockedViewScroll: Ext.emptyFn,
 ```
+
+### 8. Tree 选中行
+
+```
+var grid = ...;
+var record = grid.getStore().getNodeById('id');
+grid.getSelectionModel().select(record);
+```
