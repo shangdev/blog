@@ -116,3 +116,15 @@ var grid = ...;
 var record = grid.getStore().getNodeById('id');
 grid.getSelectionModel().select(record);
 ```
+
+### 9. Grid 单击事件
+
+```
+Ext.create("Ext.grid.Panel", {
+    listeners: {
+        click: function (grid, dom, cellIndex, colIndex, tr, record) {
+            // ...
+        }
+    }
+});
+```
