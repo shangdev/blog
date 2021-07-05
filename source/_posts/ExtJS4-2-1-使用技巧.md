@@ -128,3 +128,13 @@ Ext.create("Ext.grid.Panel", {
     }
 });
 ```
+
+### 10. Combo|Combobox 绑定 Store
+
+```
+var field = Ext.getCmp('XXX');
+field.bindStore(Ext.create("Ext.data.ArrayStore", {
+    fields: ["id", "name"],
+    data: []
+}));
+```
